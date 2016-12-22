@@ -24,7 +24,7 @@ private let KMapModeBicycleStr = "자전거지도"
 private let kCancelStr = "취소"
 
 private let kMapInvalidCompassValue: Double = -360
-private let kClientID = "s8XdTpHdMiu_1k_tKJoS"
+private let kClientID = ""
 
 
 class NMapViewController: UIViewController, UIActionSheetDelegate, NMapViewDelegate, NMapPOIdataOverlayDelegate, MMapReverseGeocoderDelegate, NMapLocationManagerDelegate {
