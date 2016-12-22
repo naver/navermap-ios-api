@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="C0S-LN-kil">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="C0S-LN-kil">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -12,7 +12,7 @@
         <!--Map View Controller-->
         <scene sceneID="fSv-8f-Lve">
             <objects>
-                <viewController id="okG-uj-vPp" customClass="NMapViewController" sceneMemberID="viewController">
+                <viewController id="okG-uj-vPp" customClass="NMapViewController" customModule="NMapViewerLib" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hbh-je-W8w"/>
                         <viewControllerLayoutGuide type="bottom" id="1LU-ea-ovs"/>
@@ -37,7 +37,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="u0s-17-DYS"/>
                     <connections>
-                        <outlet property="_toolbar" destination="YZa-6h-D4y" id="elx-Pz-vlX"/>
+                        <outlet property="toolbar" destination="YZa-6h-D4y" id="ETu-fp-Av8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="krP-jj-Ov4" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -55,7 +55,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="okG-uj-vPp" kind="relationship" relationship="rootViewController" id="aoV-TJ-KFD"/>
+                        <segue destination="okG-uj-vPp" kind="relationship" relationship="rootViewController" id="XlV-y6-QjE"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G1X-N6-jux" userLabel="First Responder" sceneMemberID="firstResponder"/>

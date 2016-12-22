@@ -1,6 +1,6 @@
 # **Naver Map SDK for iOS**
 
-iOS용 네이버 지도 라이브러리 Swift 버전 (현재 작업중입니다.)
+iOS용 네이버 지도 라이브러리
 
 Installation
 ==

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		19D1C2711E0A813B00375430 /* NMapViewResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D1C2701E0A813B00375430 /* NMapViewResource.swift */; };
+		197B14491E0C112800C722C2 /* NMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19420B831E096B53001E7C0F /* NMapViewController.swift */; };
 		1D3623260D0F684500981E51 /* NMapViewerLibAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* NMapViewerLibAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -51,14 +51,13 @@
 		B086408611885C73005E4A84 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B086408511885C73005E4A84 /* CoreLocation.framework */; };
 		B089F5601679EF010055D6B2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B089F55F1679EF010055D6B2 /* SystemConfiguration.framework */; };
 		B0CAC18A1175B98D00F882BD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CAC1891175B98D00F882BD /* QuartzCore.framework */; };
-		B0CAC1A91175BDFC00F882BD /* NMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CAC1A81175BDFC00F882BD /* NMapViewController.m */; };
 		EEE6BDF61BC3FDDD00F75CFB /* libNMapViewer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE6BDF51BC3FDDD00F75CFB /* libNMapViewer.a */; };
 		EEE6BDF81BC3FDE900F75CFB /* libApiGateway-MAC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE6BDF71BC3FDE900F75CFB /* libApiGateway-MAC.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		19D1C26F1E0A813A00375430 /* NMapViewerLib-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NMapViewerLib-Bridging-Header.h"; sourceTree = "<group>"; };
-		19D1C2701E0A813B00375430 /* NMapViewResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NMapViewResource.swift; sourceTree = "<group>"; };
+		19420B821E096B52001E7C0F /* NMapViewerLib-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NMapViewerLib-Bridging-Header.h"; sourceTree = "<group>"; };
+		19420B831E096B53001E7C0F /* NMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NMapViewController.swift; path = "Swift-Classes/NMapViewController.swift"; sourceTree = SOURCE_ROOT; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* NMapViewerLibAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapViewerLibAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* NMapViewerLibAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMapViewerLibAppDelegate.m; sourceTree = "<group>"; };
@@ -107,8 +106,6 @@
 		B086408511885C73005E4A84 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		B089F55F1679EF010055D6B2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		B0CAC1891175B98D00F882BD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		B0CAC1A71175BDFC00F882BD /* NMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMapViewController.h; sourceTree = "<group>"; };
-		B0CAC1A81175BDFC00F882BD /* NMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMapViewController.m; sourceTree = "<group>"; };
 		EEE6BDF51BC3FDDD00F75CFB /* libNMapViewer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libNMapViewer.a; path = Lib/NMapViewer/libNMapViewer.a; sourceTree = "<group>"; };
 		EEE6BDF71BC3FDE900F75CFB /* libApiGateway-MAC.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libApiGateway-MAC.a"; path = "Lib/ApiGateway/libApiGateway-MAC.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,13 +134,19 @@
 			children = (
 				B06EBDC41371627500B5572C /* NMapViewResource.h */,
 				B06EBDC51371627500B5572C /* NMapViewResource.m */,
-				19D1C2701E0A813B00375430 /* NMapViewResource.swift */,
-				19D1C26F1E0A813A00375430 /* NMapViewerLib-Bridging-Header.h */,
-				B0CAC1A71175BDFC00F882BD /* NMapViewController.h */,
-				B0CAC1A81175BDFC00F882BD /* NMapViewController.m */,
 				1D3623240D0F684500981E51 /* NMapViewerLibAppDelegate.h */,
 				1D3623250D0F684500981E51 /* NMapViewerLibAppDelegate.m */,
 			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19420B851E096B5B001E7C0F /* Swift-Classes */ = {
+			isa = PBXGroup;
+			children = (
+				19420B821E096B52001E7C0F /* NMapViewerLib-Bridging-Header.h */,
+				19420B831E096B53001E7C0F /* NMapViewController.swift */,
+			);
+			name = "Swift-Classes";
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -158,6 +161,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				19420B851E096B5B001E7C0F /* Swift-Classes */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -337,8 +341,7 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* NMapViewerLibAppDelegate.m in Sources */,
-				B0CAC1A91175BDFC00F882BD /* NMapViewController.m in Sources */,
-				19D1C2711E0A813B00375430 /* NMapViewResource.swift in Sources */,
+				197B14491E0C112800C722C2 /* NMapViewController.swift in Sources */,
 				B06EBDC61371627500B5572C /* NMapViewResource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,7 +371,7 @@
 					"-ObjC",
 					"-lxml2",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nhncorp.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.seungyounyi.mapsSwift;
 				PRODUCT_NAME = NMapViewerLib;
 				SWIFT_OBJC_BRIDGING_HEADER = "Classes/NMapViewerLib-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -397,7 +400,7 @@
 					"-ObjC",
 					"-lxml2",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nhncorp.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.seungyounyi.mapsSwift;
 				PRODUCT_NAME = NMapViewerLib;
 				SWIFT_OBJC_BRIDGING_HEADER = "Classes/NMapViewerLib-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
