@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-#import "NMapViewController.h"
-
 @interface NMapViewerLibAppDelegate : NSObject <UIApplicationDelegate>
 
 @property (retain, nonatomic) UIWindow *window;
