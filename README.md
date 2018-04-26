@@ -1,23 +1,25 @@
 # **Naver Map SDK for iOS**
 
-iOS용 네이버 지도 라이브러리
+네이버 클라우드 플랫폼 사용자를 위한 iOS용 네이버 지도 라이브러리
 
 Installation
 ==
-- 상세한 내용은 [https://developers.naver.com/docs/map/tutorial] 참조
+- 상세한 내용은 [http://docs.ncloud.com/ko/naveropenapi_v2/naveropenapi-5-5.html] 참고
 
 API Document
 ==
-- API 문서 [https://developers.naver.com/docs/map/ios] 참조
+- API 문서 [http://docs.ncloud.com/ko/naveropenapi_v2/naveropenapi-5-5.html] 참고
 
 Q&A
 ==
 - 네이버 개발자 포럼 [http://forum.developers.naver.com/]
+- 기타 이용문의 [https://www.ncloud.com/support/question/service]
+
 
 License
 -----
 
-Copyright 2017 NAVER Corp.
+Copyright 2018 NAVER Corp.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
