@@ -15,7 +15,7 @@ let UserPOIflagTypeInvisible: NMapPOIflagType = NMapPOIflagTypeReserved + 2
 
 class NMapViewResources: NSObject {
 
-    open static func imageWithType(_ poiFlagType: NMapPOIflagType, selected: Bool) -> UIImage? {
+    public static func imageWithType(_ poiFlagType: NMapPOIflagType, selected: Bool) -> UIImage? {
         switch poiFlagType {
         case NMapPOIflagTypeLocation:
             return #imageLiteral(resourceName: "pubtrans_ic_mylocation_on")
@@ -32,7 +32,7 @@ class NMapViewResources: NSObject {
         }
     }
     
-    open static func anchorPoint(withType type: NMapPOIflagType) -> CGPoint {
+    public static func anchorPoint(withType type: NMapPOIflagType) -> CGPoint {
         switch type {
         case NMapPOIflagTypeLocation: fallthrough
         case NMapPOIflagTypeLocationOff: fallthrough
